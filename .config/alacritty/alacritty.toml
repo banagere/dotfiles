@@ -25,3 +25,9 @@ blue    = '#aeeeee'
 magenta = '#505050'
 cyan    = '#afffd7'
 white   = '#fcfcce'
+
+[terminal]
+
+[terminal.shell]
+# program = '/opt/homebrew/bin/fish'
+program = '/bin/zsh'
