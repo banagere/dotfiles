@@ -24,3 +24,4 @@ function zi
         cd "$dir"
     end
 end
+set fish_greeting
