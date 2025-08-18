@@ -7,6 +7,8 @@ if status is-interactive
     alias bbc="brew cleanup && brew autoremove && brew update && brew upgrade"
     alias l="ls -lh"
     alias ll="ls -alh"
+    alias gs="git status"
+    alias gf="git fetch"
 
     # zoxide init
     if type -q zoxide

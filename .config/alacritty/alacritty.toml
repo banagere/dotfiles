@@ -3,31 +3,30 @@ size = 16
 
 
 [colors.primary]
-background =  '#000000'
-foreground =  '#ffffff'
+background = '#000000'
+foreground = '#ffffff'
 
 [colors.normal]
-black   = '#101010'
-red     = '#af5f00'
-green   = '#cccc7c'
-yellow  = '#ffff5f'
-blue    = '#aeeeee'
+black = '#101010'
+red = '#af5f00'
+green = '#cccc7c'
+yellow = '#ffff5f'
+blue = '#aeeeee'
 magenta = '#505050'
-cyan    = '#afffd7'
-white   = '#fcfcce'
+cyan = '#afffd7'
+white = '#fcfcce'
 
 [colors.bright]
-black   = '#101010'
-red     = '#af5f00'
-green   = '#cccc7c'
-yellow  = '#ffff5f'
-blue    = '#aeeeee'
+black = '#101010'
+red = '#af5f00'
+green = '#cccc7c'
+yellow = '#ffff5f'
+blue = '#aeeeee'
 magenta = '#505050'
-cyan    = '#afffd7'
-white   = '#fcfcce'
+cyan = '#afffd7'
+white = '#fcfcce'
 
 [terminal]
-
 [terminal.shell]
-# program = '/opt/homebrew/bin/fish'
-program = '/bin/zsh'
+program = '/opt/homebrew/bin/fish'
+# program = '/bin/zsh'
