@@ -2,6 +2,7 @@ if status is-interactive
     # intial
     set fish_greeting
     eval (/opt/homebrew/bin/brew shellenv)
+    set -g fish_prompt_show_exit_status 0
 
     # Aliases
     alias bbc="brew cleanup && brew autoremove && brew update && brew upgrade"
@@ -9,6 +10,7 @@ if status is-interactive
     alias ll="ls -alh"
     alias gs="git status"
     alias gf="git fetch"
+    alias gpo="git pull origin"
 
     # zoxide init
     if type -q zoxide
