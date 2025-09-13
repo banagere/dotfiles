@@ -9,9 +9,18 @@
   {
     "context": "Workspace",
     "bindings": {
+      // "e e": "terminal_panel::ToggleFocus",
+      // "e c": "workspace::ToggleBottomDock"
       // "shift shift": "file_finder::Toggle"
     }
   },
+  // {
+  //   "context": "Editor && vim_mode == normal && !menu",
+  //   "bindings": {
+  //     "t t": "terminal_panel::ToggleFocus",
+  //     "t c": "workspace::ToggleBottomDock"
+  //   }
+  // },
   {
     "context": "Editor && vim_mode == insert && !menu",
     "bindings": {

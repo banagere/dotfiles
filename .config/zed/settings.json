@@ -3,17 +3,33 @@
 // documentation: https://zed.dev/docs/configuring-zed
 
 {
-  // Base settings
-  "theme": {
-    "mode": "system",
-    "dark": "GitHub Dark Default",
-    "light": "One Light"
-  },
-  "icon_theme": "Material Icon Theme",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
+  "disable_ai": false,
+
+  // Vim
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "use_smartcase_find": true,
+    "cursor_shape": {
+      "normal": "block",
+      "insert": "bar",
+      "replace": "underline",
+      "visual": "hollow"
+    }
+  },
+  "relative_line_numbers": true,
+  "vertical_scroll_margin": 10,
+  "cursor_blink": false,
+  "hide_mouse": "on_typing",
+
+  "theme": "GitHub Dark Default",
+  // "theme": "Rasha Capital Dark",
+  // "theme": "Zero Trust Light",
+  "icon_theme": "Material Icon Theme",
 
   // formatting
   "remove_trailing_whitespace_on_save": true,
@@ -21,23 +37,8 @@
   "show_completions_on_input": true,
   "show_edit_predictions": false, // switches off zed ai crap
   "use_smartcase_search": true,
-  // "disable_ai": true,
 
-  // Vim
-  "vim_mode": true,
-  "vim": {
-    "default_mode": "normal",
-    "toggle_relative_line_numbers": true,
-    "use_system_clipboard": "always",
-    "use_smartcase_find": false,
-    "highlight_on_yank_duration": 200,
-    "custom_digraphs": {},
-    "cursor_shape": {
-      "normal": "block",
-      "insert": "bar",
-      "visual": "underline"
-    }
-  },
+  "git": { "inline_blame": { "enabled": false } },
 
   // Language specific settings
   "languages": {
@@ -85,9 +86,10 @@
 
   // LLM
   "agent": {
+    "default_profile": "minimal",
     "default_model": {
       "provider": "openai",
-      "model": "gpt-5-mini"
+      "model": "gpt-5"
     },
     "button": false
   },
