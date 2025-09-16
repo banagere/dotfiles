@@ -88,8 +88,8 @@
   "agent": {
     "default_profile": "minimal",
     "default_model": {
-      "provider": "openai",
-      "model": "gpt-5"
+      "provider": "anthropic",
+      "model": "claude-3-5-haiku-latest"
     },
     "button": false
   },
