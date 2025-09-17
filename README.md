@@ -8,3 +8,4 @@
 - `cd dotfiles`
 - `stow -R -v -t ~ --override='.*' .`
 - `brew bundle --file=~/dotfiles/.config/brew/Brewfile`
+- `echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells`
