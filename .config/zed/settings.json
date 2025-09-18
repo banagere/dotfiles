@@ -44,7 +44,7 @@
   "languages": {
     "Python": {
       "debuggers": ["Debugpy"],
-      "language_servers": ["pyright", "ruff"],
+      "language_servers": ["basedpyright", "ruff"],
       "format_on_save": "on",
       "auto_indent_on_paste": true,
       "formatter": "language_server",
@@ -95,9 +95,6 @@
   },
 
   // Panel visibility settings
-  "chat_panel": {
-    "button": "never"
-  },
   "outline_panel": {
     "button": false
   },
