@@ -3,6 +3,7 @@ if status is-interactive
     set fish_greeting
     eval (/opt/homebrew/bin/brew shellenv)
     set -g fish_prompt_show_exit_status 0
+    set -x HOMEBREW_NO_ENV_HINTS 1
 
     # Aliases
     alias bbc="brew cleanup && brew autoremove && brew update && brew upgrade"
