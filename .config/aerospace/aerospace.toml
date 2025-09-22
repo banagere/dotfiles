@@ -1,0 +1,4 @@
+start-at-login = false
+
+[gaps]
+inner.horizontal = 10
