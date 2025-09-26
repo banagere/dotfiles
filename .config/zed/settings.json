@@ -52,6 +52,7 @@
   "languages": {
     "Python": {
       "language_servers": ["pyright", "ruff"],
+      // "language_servers": ["ty", "ruff"],
       // "language_servers": ["basedpyright", "ruff"],
       "debuggers": ["Debugpy"],
       "format_on_save": "on",
@@ -72,22 +73,20 @@
       }
     }
   },
-  // "python.linter": "ruff", // is this really not working??
   "lsp": {
-    // "basedpyright": {
-    //   "settings": {
-    //     "python": {
-    //       "pythonPath": "/Users/banagere/Developer/Rasha Capital/research/.venv/bin/python"
-    //     }
-    //   }
-    // },
     "ruff": {
       "initialization_options": {
         "settings": {
           // Ruff server settings goes here
           "lineLength": 100,
+          "organizeImports": true,
           "lint": {
-            "extend-select": ["E", "I", "N", "R"]
+            "enable": true,
+            "select": ["E", "I", "N", "R"],
+            "ignore": ["I001"]
+          },
+          "format": {
+            "backend": "uv"
           }
         }
       }
